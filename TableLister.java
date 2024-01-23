@@ -4,7 +4,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class TableLister {
+public class TableListener {
 
 	// JDBC URL, username, and password of PostgreSQL server
 	private static final String url = "jdbc:postgresql://localhost:5432/application"; // for postgresql (port:5432).
